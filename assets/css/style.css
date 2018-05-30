@@ -1,0 +1,49 @@
+body {
+	background-color: #CC0000;
+}
+
+#title {
+	font-family: 'Ferro Rosso';
+	color: yellow;
+	font-weight: 200;
+	font-size: 60px;
+}
+
+#logo2 {
+	float: right;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+	background: linear-gradient(to right, #009b4d, white, #ee151f);
+	
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: yellow;
+	color: red;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
+
+.timer, .answers, .question {
+	color: yellow;
+}

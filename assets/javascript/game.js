@@ -59,7 +59,7 @@ var q3 = {
 	question : 'In what Italian town is Ferrari headquartered?',
 	possibleAnswers : ['A. Milan',
 				 'B. Modena',
-				 'C. Maranallo',
+				 'C. Maranello',
 				 'D. Marsala'],
 	flags : [false, true, false, false],
 	answer : 'B. Modena'
@@ -133,9 +133,29 @@ var q10 = {
 				  'D. Michael Schumacher'],
 	flags : [false, false, true, false],
 	answer : 'C. Kimi Raikkonen'
-}
+};
 
-var questionArray = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10];
+var q11 = {
+	question : 'A 250 California GT Spyder replica was famously driven and destroyed in this movie.',
+	possibleAnswers : ['A. Top Gun',
+				  'B. Days of Thunder',
+				  'C. Fast Times at Ridgemont High',
+				  'D. Ferris Bueller\'s Day Off'],
+	flags : [false, false, false, true],
+	answer : 'D. Ferris Bueller\'s Day Off'
+};
+
+var q12 = {
+	question : 'Ferrari\'s racing team is known as \"Scuderia Ferrari\". What does scuderia mean?',
+	possibleAnswers : ['A. Horse',
+				  'B. Stable',
+				  'C. Engine',
+				  'D. Racing'],
+	flags : [false, true, false, false],
+	answer : 'B. Stable'
+};
+
+var questionArray = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12];
 
 function loadQuestion(questionSelection) {
 	console.log(questionSelection);
